@@ -1,0 +1,6 @@
+Invoking command in '/home/knn/USB_test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/knn/USB_test/src/serial -DCMAKE_INSTALL_PREFIX=/home/knn/USB_test/install/serial
+Invoked command in '/home/knn/USB_test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/knn/USB_test/src/serial -DCMAKE_INSTALL_PREFIX=/home/knn/USB_test/install/serial
+Invoking command in '/home/knn/USB_test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knn/USB_test/build/serial -- -j12 -l12
+Invoked command in '/home/knn/USB_test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knn/USB_test/build/serial -- -j12 -l12
+Invoking command in '/home/knn/USB_test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knn/USB_test/build/serial
+Invoked command in '/home/knn/USB_test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knn/USB_test/build/serial

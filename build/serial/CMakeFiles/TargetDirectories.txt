@@ -1,0 +1,11 @@
+/home/knn/USB_test/build/serial/CMakeFiles/uninstall.dir
+/home/knn/USB_test/build/serial/CMakeFiles/serial_uninstall.dir
+/home/knn/USB_test/build/serial/CMakeFiles/serial.dir
+/home/knn/USB_test/build/serial/CMakeFiles/serial_example.dir
+/home/knn/USB_test/build/serial/CMakeFiles/test.dir
+/home/knn/USB_test/build/serial/CMakeFiles/edit_cache.dir
+/home/knn/USB_test/build/serial/CMakeFiles/rebuild_cache.dir
+/home/knn/USB_test/build/serial/CMakeFiles/list_install_components.dir
+/home/knn/USB_test/build/serial/CMakeFiles/install.dir
+/home/knn/USB_test/build/serial/CMakeFiles/install/local.dir
+/home/knn/USB_test/build/serial/CMakeFiles/install/strip.dir

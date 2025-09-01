@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "usb_v1__py",
+		"source" : "/home/knn/USB_test/build/usb_v1/usb_v1__py"
+	}
+}

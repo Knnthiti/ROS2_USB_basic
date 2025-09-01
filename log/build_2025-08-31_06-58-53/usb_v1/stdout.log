@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[  8%] Built target usb_v1__rosidl_generator_c
+[ 11%] Built target usb_v1__cpp
+[ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/USB_esp.cpp.o[0m
+[ 14%] Built target ament_cmake_python_copy_usb_v1
+[ 17%] [32mBuilding CXX object CMakeFiles/listener.dir/src/Print_Data.cpp.o[0m
+[ 25%] Built target usb_v1__rosidl_typesupport_introspection_cpp
+[ 34%] Built target usb_v1__rosidl_typesupport_introspection_c
+[ 48%] Built target usb_v1__rosidl_typesupport_fastrtps_c
+[ 51%] Built target usb_v1__rosidl_typesupport_c
+[ 60%] Built target usb_v1__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target usb_v1__rosidl_typesupport_cpp
+[ 68%] Built target usb_v1
+[ 71%] Built target usb_v1__py
+[ 77%] Built target usb_v1__rosidl_generator_py
+[ 91%] Built target usb_v1__rosidl_typesupport_c__pyext
+[ 91%] Built target usb_v1__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target usb_v1__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing usb_v1.egg-info/PKG-INFO
+writing dependency_links to usb_v1.egg-info/dependency_links.txt
+writing top-level names to usb_v1.egg-info/top_level.txt
+reading manifest file 'usb_v1.egg-info/SOURCES.txt'
+writing manifest file 'usb_v1.egg-info/SOURCES.txt'
+[ 94%] Built target ament_cmake_python_build_usb_v1_egg
+[ 97%] [32m[1mLinking CXX executable talker[0m
+[ 97%] Built target talker

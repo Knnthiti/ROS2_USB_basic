@@ -1,0 +1,239 @@
+[0.011s] Invoking command in '/home/knn/USB_test/build/usb_v1': AMENT_PREFIX_PATH=/home/knn/USB_test/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/knn/USB_test/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/knn/USB_test/build/usb_v1 -- -j12 -l12
+[0.038s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.162s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.165s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.170s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.206s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.206s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.317s] -- Found serial: 1.2.0 (/home/knn/USB_test/install/serial/share/serial/cmake)
+[0.318s] -- Found usb_v1: 0.0.0 (/home/knn/USB_test/install/usb_v1/share/usb_v1/cmake)
+[0.336s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.561s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.042s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.060s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.060s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.088s] -- Configuring done
+[1.114s] -- Generating done
+[1.124s] -- Build files have been written to: /home/knn/USB_test/build/usb_v1
+[1.153s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.157s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.158s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.168s] [  5%] [32mBuilding CXX object CMakeFiles/listener.dir/src/Print_Data.cpp.o[0m
+[1.169s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.176s] [ 11%] [32mBuilding CXX object CMakeFiles/talker.dir/src/USB_esp.cpp.o[0m
+[1.180s] [ 11%] Built target ament_cmake_python_copy_usb_v1
+[1.415s] [ 11%] Built target usb_v1__cpp
+[1.426s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.427s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.428s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.523s] running egg_info
+[1.524s] writing usb_v1.egg-info/PKG-INFO
+[1.524s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_generator_c[0m
+[1.524s] writing dependency_links to usb_v1.egg-info/dependency_links.txt
+[1.524s] writing top-level names to usb_v1.egg-info/top_level.txt
+[1.527s] reading manifest file 'usb_v1.egg-info/SOURCES.txt'
+[1.528s] writing manifest file 'usb_v1.egg-info/SOURCES.txt'
+[1.540s] [ 22%] [32mBuilding C object CMakeFiles/usb_v1__rosidl_generator_c.dir/rosidl_generator_c/usb_v1/msg/detail/joy__functions.c.o[0m
+[1.564s] [ 22%] Built target ament_cmake_python_build_usb_v1_egg
+[1.602s] [ 25%] [32m[1mLinking C shared library libusb_v1__rosidl_generator_c.so[0m
+[1.647s] [ 25%] Built target usb_v1__rosidl_generator_c
+[1.660s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.660s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.662s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.666s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_fastrtps_cpp[0m
+[1.679s] [ 37%] [32mBuilding CXX object CMakeFiles/usb_v1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/usb_v1/msg/detail/dds_fastrtps/joy__type_support.cpp.o[0m
+[1.746s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_cpp[0m
+[1.763s] [ 40%] [32mBuilding CXX object CMakeFiles/usb_v1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/usb_v1/msg/joy__type_support.cpp.o[0m
+[1.777s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_introspection_cpp[0m
+[1.796s] [ 42%] [32mBuilding CXX object CMakeFiles/usb_v1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/usb_v1/msg/detail/joy__type_support.cpp.o[0m
+[2.001s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_c[0m
+[2.019s] [ 45%] [32mBuilding CXX object CMakeFiles/usb_v1__rosidl_typesupport_c.dir/rosidl_typesupport_c/usb_v1/msg/joy__type_support.cpp.o[0m
+[2.022s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_introspection_c[0m
+[2.032s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_fastrtps_c[0m
+[2.038s] [ 48%] [32mBuilding C object CMakeFiles/usb_v1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/usb_v1/msg/detail/joy__type_support.c.o[0m
+[2.046s] [ 51%] [32m[1mLinking CXX shared library libusb_v1__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.048s] [ 54%] [32mBuilding CXX object CMakeFiles/usb_v1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/usb_v1/msg/detail/joy__type_support_c.cpp.o[0m
+[2.059s] [ 57%] [32m[1mLinking CXX shared library libusb_v1__rosidl_typesupport_c.so[0m
+[2.081s] [ 60%] [32m[1mLinking C shared library libusb_v1__rosidl_typesupport_introspection_c.so[0m
+[2.119s] [ 62%] [32m[1mLinking CXX shared library libusb_v1__rosidl_typesupport_cpp.so[0m
+[2.120s] [ 62%] Built target usb_v1__rosidl_typesupport_c
+[2.127s] [ 62%] Built target usb_v1__rosidl_typesupport_introspection_c
+[2.151s] [ 62%] Built target usb_v1__rosidl_typesupport_fastrtps_cpp
+[2.162s] [ 62%] Built target usb_v1__rosidl_typesupport_cpp
+[2.258s] [ 65%] [32m[1mLinking CXX shared library libusb_v1__rosidl_typesupport_introspection_cpp.so[0m
+[2.339s] [ 65%] Built target usb_v1__rosidl_typesupport_introspection_cpp
+[2.450s] [ 68%] [32m[1mLinking CXX shared library libusb_v1__rosidl_typesupport_fastrtps_c.so[0m
+[2.530s] [ 68%] Built target usb_v1__rosidl_typesupport_fastrtps_c
+[2.554s] [ 68%] Built target usb_v1
+[2.579s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.958s] [ 71%] Built target usb_v1__py
+[2.970s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_generator_py[0m
+[2.983s] [ 74%] [32mBuilding C object CMakeFiles/usb_v1__rosidl_generator_py.dir/rosidl_generator_py/usb_v1/msg/_joy_s.c.o[0m
+[3.064s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:63:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscript[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KSubscription[m[K’?
+[3.064s]    63 |     rclcpp::[01;31m[KSubscript[m[K<usb_v1::msg::Joy>::SharedPtr subJoy; // Publisher_odject
+[3.064s]       |             [01;31m[K^~~~~~~~~[m[K
+[3.064s]       |             [32m[KSubscription[m[K
+[3.064s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:72:25:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K<[m[K’ token
+[3.064s]    72 |     void topic_callback([01;31m[K<[m[Kusb_v1::msg::Joy> &msg)
+[3.065s]       |                         [01;31m[K^[m[K
+[3.065s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:72:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[3.065s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:93:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.065s]    93 | }
+[3.065s]       |  [01;31m[K^[m[K
+[3.065s]       |  [32m[K;[m[K
+[3.069s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:[m[K In constructor ‘[01m[KPrintData::PrintData()[m[K’:
+[3.069s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsubJoy[m[K’ was not declared in this scope
+[3.069s]    69 |         [01;31m[KsubJoy[m[K = create_subscription<usb_v1::msg::Joy>("Data", 10, std::bind(&PrintData::topic_callback, this, _1)); // create subscription
+[3.069s]       |         [01;31m[K^~~~~~[m[K
+[3.069s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:69:112:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[3.069s]    69 |         subJoy = create_subscription<usb_v1::msg::Joy>("Data", 10, std::bind(&PrintData::topic_callback, this, [01;31m[K_1[m[K)); // create subscription
+[3.069s]       |                                                                                                                [01;31m[K^~[m[K
+[3.070s]       |                                                                                                                [32m[Kstd::placeholders::_1[m[K
+[3.070s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[3.070s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[3.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[3.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.071s]                  from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[3.071s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[3.071s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[3.071s]       |                                  [01;36m[K^~[m[K
+[3.071s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.072s]                  from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[3.072s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:[m[K In member function ‘[01m[Kvoid PrintData::topic_callback(int)[m[K’:
+[3.072s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:78:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[3.072s]    78 |                     [01;31m[Kmsg[m[K.moveBtnBit.move1,
+[3.072s]       |                     [01;31m[K^~~[m[K
+[3.072s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:78:21:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[3.072s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[3.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.074s]                  from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[3.074s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[3.074s]    27 | namespace [01;36m[Kmsg[m[K
+[3.074s]       |           [01;36m[K^~~[m[K
+[3.074s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[3.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[3.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[3.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[3.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.075s]                  from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[3.075s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[3.075s]    27 | namespace [01;36m[Kmsg[m[K
+[3.075s]       |           [01;36m[K^~~[m[K
+[3.075s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[3.075s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[3.075s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[3.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.076s]                  from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[3.076s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[3.076s]    27 | namespace [01;36m[Kmsg[m[K
+[3.076s]       |           [01;36m[K^~~[m[K
+[3.077s] In file included from [01m[K/home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/joy.hpp:7[m[K,
+[3.077s]                  from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:11[m[K:
+[3.077s] [01m[K/home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kusb_v1::msg[m[K’
+[3.077s]    27 | namespace [01;36m[Kmsg[m[K
+[3.077s]       |           [01;36m[K^~~[m[K
+[3.102s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/usb_v1/libusb_v1__rosidl_generator_py.so[0m
+[3.146s] [ 77%] Built target usb_v1__rosidl_generator_py
+[3.159s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_introspection_c__pyext[0m
+[3.159s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.159s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_c__pyext[0m
+[3.174s] [ 85%] [32mBuilding C object CMakeFiles/usb_v1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/usb_v1/_usb_v1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.175s] [ 85%] [32mBuilding C object CMakeFiles/usb_v1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/usb_v1/_usb_v1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.175s] [ 85%] [32mBuilding C object CMakeFiles/usb_v1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/usb_v1/_usb_v1_s.ep.rosidl_typesupport_c.c.o[0m
+[3.288s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/usb_v1/usb_v1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.288s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/usb_v1/usb_v1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.289s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/usb_v1/usb_v1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.338s] [ 94%] Built target usb_v1__rosidl_typesupport_fastrtps_c__pyext
+[3.338s] [ 94%] Built target usb_v1__rosidl_typesupport_c__pyext
+[3.338s] [ 94%] Built target usb_v1__rosidl_typesupport_introspection_c__pyext
+[3.378s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:[m[K In member function ‘[01m[Kvoid USB::Runner()[m[K’:
+[3.378s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:98:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[3.378s]    98 |             msg.[01;31m[Kheader[m[K[0] = recvControllerData_t.Header[0];
+[3.378s]       |                 [01;31m[K^~~~~~[m[K
+[3.378s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:99:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[3.378s]    99 |             msg.[01;31m[Kheader[m[K[1] = recvControllerData_t.Header[1];
+[3.378s]       |                 [01;31m[K^~~~~~[m[K
+[3.378s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:101:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmove_1[m[K’
+[3.378s]   101 |             msg.[01;31m[Kmove_1[m[K = recvControllerData_t.moveBtnBit.move1;
+[3.378s]       |                 [01;31m[K^~~~~~[m[K
+[3.378s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:102:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmove_2[m[K’
+[3.378s]   102 |             msg.[01;31m[Kmove_2[m[K = recvControllerData_t.moveBtnBit.move2;
+[3.378s]       |                 [01;31m[K^~~~~~[m[K
+[3.378s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:103:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmove_3[m[K’
+[3.378s]   103 |             msg.[01;31m[Kmove_3[m[K = recvControllerData_t.moveBtnBit.move3;
+[3.379s]       |                 [01;31m[K^~~~~~[m[K
+[3.379s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:104:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmove_4[m[K’
+[3.379s]   104 |             msg.[01;31m[Kmove_4[m[K = recvControllerData_t.moveBtnBit.move4;
+[3.379s]       |                 [01;31m[K^~~~~~[m[K
+[3.379s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:105:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kset1[m[K’
+[3.379s]   105 |             msg.[01;31m[Kset1[m[K = recvControllerData_t.moveBtnBit.set1;
+[3.379s]       |                 [01;31m[K^~~~[m[K
+[3.379s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:106:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kset2[m[K’
+[3.379s]   106 |             msg.[01;31m[Kset2[m[K = recvControllerData_t.moveBtnBit.set2;
+[3.379s]       |                 [01;31m[K^~~~[m[K
+[3.379s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:108:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kattack1[m[K’
+[3.379s]   108 |             msg.[01;31m[Kattack1[m[K = recvControllerData_t.attackBtnBit.attack1;
+[3.379s]       |                 [01;31m[K^~~~~~~[m[K
+[3.379s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:109:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kattack2[m[K’
+[3.379s]   109 |             msg.[01;31m[Kattack2[m[K = recvControllerData_t.attackBtnBit.attack2;
+[3.379s]       |                 [01;31m[K^~~~~~~[m[K
+[3.379s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:110:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kattack3[m[K’
+[3.380s]   110 |             msg.[01;31m[Kattack3[m[K = recvControllerData_t.attackBtnBit.attack3;
+[3.380s]       |                 [01;31m[K^~~~~~~[m[K
+[3.380s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:111:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Joy = struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kattack4[m[K’
+[3.380s]   111 |             msg.[01;31m[Kattack4[m[K = recvControllerData_t.attackBtnBit.attack4;
+[3.380s]       |                 [01;31m[K^~~~~~~[m[K
+[3.407s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/Print_Data.cpp.o] Error 1
+[3.407s] gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/listener.dir/all] Error 2
+[3.407s] gmake[1]: *** Waiting for unfinished jobs....
+[3.854s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/USB_esp.cpp.o] Error 1
+[3.855s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/talker.dir/all] Error 2
+[3.855s] gmake: *** [Makefile:146: all] Error 2
+[3.857s] Invoked command in '/home/knn/USB_test/build/usb_v1' returned '2': AMENT_PREFIX_PATH=/home/knn/USB_test/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/knn/USB_test/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/knn/USB_test/build/usb_v1 -- -j12 -l12

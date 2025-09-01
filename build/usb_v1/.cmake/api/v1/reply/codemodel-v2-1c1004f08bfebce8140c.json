@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d8a1eac511b757375155.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "usb_v1__py",
+					"jsonFile" : "directory-usb_v1__py-25cca74b514ec61c2e4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/knn/USB_test/build/usb_v1/usb_v1__py",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "usb_v1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_usb_v1_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_usb_v1_egg-2cb65634408a8f60ee60.json",
+					"name" : "ament_cmake_python_build_usb_v1_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_usb_v1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_usb_v1-d67bc6af58cde6b6c9e4.json",
+					"name" : "ament_cmake_python_copy_usb_v1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener-18235220badfb99fc6c3.json",
+					"name" : "listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker-b1d081654964556e396d.json",
+					"name" : "talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e92c017603411e205bfe.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1-27be83b83b307ff4852f.json",
+					"name" : "usb_v1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__cpp-aebf939374b460d6c06e.json",
+					"name" : "usb_v1__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "usb_v1__py::@911767298539f785cbbb",
+					"jsonFile" : "target-usb_v1__py-4d6b0ddb825864b45b95.json",
+					"name" : "usb_v1__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_generator_c-b60d89fc1dbee0b28977.json",
+					"name" : "usb_v1__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_generator_py-5aec0b45d9d557063bfb.json",
+					"name" : "usb_v1__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_c-4897075593900c040f57.json",
+					"name" : "usb_v1__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_c__pyext-27811165248b1b10eb2c.json",
+					"name" : "usb_v1__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_cpp-19f3281a083e3797d0b5.json",
+					"name" : "usb_v1__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_fastrtps_c-6635df9d84e3174ddaa0.json",
+					"name" : "usb_v1__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_fastrtps_c__pyext-df35afc088afb2c60348.json",
+					"name" : "usb_v1__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_fastrtps_cpp-11abac718d35b270ac0a.json",
+					"name" : "usb_v1__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_introspection_c-31c5c64d5a0b5e234ee1.json",
+					"name" : "usb_v1__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_introspection_c__pyext-579713f6b02e9b06f072.json",
+					"name" : "usb_v1__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1__rosidl_typesupport_introspection_cpp-98922e621d1cb9060442.json",
+					"name" : "usb_v1__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_v1_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_v1_uninstall-5577173f4d02b8511a55.json",
+					"name" : "usb_v1_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/knn/USB_test/build/usb_v1",
+		"source" : "/home/knn/USB_test/src/usb_v1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,8 @@
+setup.py
+usb_v1/__init__.py
+usb_v1.egg-info/PKG-INFO
+usb_v1.egg-info/SOURCES.txt
+usb_v1.egg-info/dependency_links.txt
+usb_v1.egg-info/top_level.txt
+usb_v1/msg/__init__.py
+usb_v1/msg/_joy.py

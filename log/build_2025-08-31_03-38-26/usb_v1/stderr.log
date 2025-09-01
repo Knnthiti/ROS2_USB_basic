@@ -1,0 +1,171 @@
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:97:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   97 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:[m[K In constructor ‘[01m[KUSB::USB()[m[K’:
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_USB[m[K’ was not declared in this scope; did you mean ‘[01m[KUSB[m[K’?
+   74 |         [01;31m[K_USB[m[K = std::make_shared<serial::Serial>(string(dev / ttyUSB0), 115200, serial::Timeout::simpleTimeout(5)); // serial_odject
+      |         [01;31m[K^~~~[m[K
+      |         [32m[KUSB[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:74:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kdev[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+   74 |         _USB = std::make_shared<serial::Serial>(string([01;31m[Kdev[m[K / ttyUSB0), 115200, serial::Timeout::simpleTimeout(5)); // serial_odject
+      |                                                        [01;31m[K^~~[m[K
+      |                                                        [32m[Kdiv[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:74:62:[m[K [01;31m[Kerror: [m[K‘[01m[KttyUSB0[m[K’ was not declared in this scope
+   74 |        _USB = std::make_shared<serial::Serial>(string(dev / [01;31m[KttyUSB0[m[K), 115200, serial::Timeout::simpleTimeout(5)); // serial_odject
+      |                                                             [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:74:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+   74 |         _USB = std::make_shared<serial::Serial>([01;31m[Kstring[m[K(dev / ttyUSB0), 115200, serial::Timeout::simpleTimeout(5)); // serial_odject
+      |                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:74:49:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/string:39[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/stringfwd.h:79:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’
+   79 |   typedef basic_string<char>    [01;36m[Kstring[m[K;
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:3[m[K:
+[01m[K/usr/include/c++/11/string:67:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::string[m[K’
+   67 |     using [01;36m[Kstring[m[K    = basic_string<char>;
+      |           [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:10[m[K:
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:82:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kport[m[K’ was not declared in this scope
+   82 | CLCPP_INFO(get_logger(), "Opened serial port %s @ %d baud", [01;31m[Kport[m[K.c_str(), baudrate);
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:82:88:[m[K [01;31m[Kerror: [m[K‘[01m[Kbaudrate[m[K’ was not declared in this scope
+   82 | t_logger(), "Opened serial port %s @ %d baud", port.c_str(), [01;31m[Kbaudrate[m[K);
+      |                                                              [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:86:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kport[m[K’ was not declared in this scope
+   86 | LCPP_FATAL(get_logger(), "Failed to open serial port '%s'", [01;31m[Kport[m[K.c_str());
+      |                                                             [01;31m[K^~~~[m[K
+
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:[m[K In member function ‘[01m[Kvoid USB::Runner()[m[K’:
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:93:13:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[KControllerData_t[m[K’ to type ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   93 |        read([01;31m[K(uint8_t *)recvControllerData_t[m[K, sizeof(recvControllerData_t)); //read_data
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:95:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Publisher<usb_v1::msg::Joy_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Publisher<usb_v1::msg::Joy_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpubilsh[m[K’; did you mean ‘[01m[Kpublish[m[K’?
+   95 |        pubJoy->[01;31m[Kpubilsh[m[K(recvControllerData_t); //send data frompublisher
+      |                [01;31m[K^~~~~~~[m[K
+      |                [32m[Kpublish[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:63:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscript[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KSubscription[m[K’?
+   63 |     rclcpp::[01;31m[KSubscript[m[K<usb_v1::msg::Joy>::SharedPtr subJoy; // Publisher_odject
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[KSubscription[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:72:25:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K<[m[K’ token
+   72 |     void topic_callback([01;31m[K<[m[Kusb_v1::msg::Joy> &msg)
+      |                         [01;31m[K^[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:72:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:93:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   93 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:[m[K In constructor ‘[01m[KPrintData::PrintData()[m[K’:
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsubJoy[m[K’ was not declared in this scope
+   69 |         [01;31m[KsubJoy[m[K = create_subscription<usb_v1::msg::Joy>("Data", 10, std::bind(&PrintData::topic_callback, this, _1)); // create subscription
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:69:112:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   69 |         subJoy = create_subscription<usb_v1::msg::Joy>("Data", 10, std::bind(&PrintData::topic_callback, this, [01;31m[K_1[m[K)); // create subscription
+      |                                                                                                                [01;31m[K^~[m[K
+      |                                                                                                                [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:[m[K In member function ‘[01m[Kvoid PrintData::topic_callback(int)[m[K’:
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:78:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   78 |                     [01;31m[Kmsg[m[K.moveBtnBit.move1,
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:78:21:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/joy.hpp:7[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:11[m[K:
+[01m[K/home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kusb_v1::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/Print_Data.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/USB_esp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

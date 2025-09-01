@@ -1,0 +1,83 @@
+[0.010s] Invoking command in '/home/knn/USB_test/build/usb_v1': AMENT_PREFIX_PATH=/home/knn/USB_test/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/knn/USB_test/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/knn/USB_test/build/usb_v1 -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.063s] [  5%] Built target talker
+[0.064s] [  8%] Built target usb_v1__cpp
+[0.065s] [ 17%] Built target usb_v1__rosidl_generator_c
+[0.070s] [ 20%] Built target ament_cmake_python_copy_usb_v1
+[0.070s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/Print_Data.cpp.o[0m
+[0.090s] [ 28%] Built target usb_v1__rosidl_typesupport_fastrtps_c
+[0.091s] [ 37%] Built target usb_v1__rosidl_typesupport_introspection_c
+[0.092s] [ 51%] Built target usb_v1__rosidl_typesupport_c
+[0.092s] [ 54%] Built target usb_v1__rosidl_typesupport_cpp
+[0.093s] [ 62%] Built target usb_v1__rosidl_typesupport_introspection_cpp
+[0.093s] [ 71%] Built target usb_v1__rosidl_typesupport_fastrtps_cpp
+[0.117s] [ 71%] Built target usb_v1
+[0.142s] [ 74%] Built target usb_v1__py
+[0.166s] [ 80%] Built target usb_v1__rosidl_generator_py
+[0.192s] [ 85%] Built target usb_v1__rosidl_typesupport_introspection_c__pyext
+[0.193s] [ 97%] Built target usb_v1__rosidl_typesupport_c__pyext
+[0.193s] [ 97%] Built target usb_v1__rosidl_typesupport_fastrtps_c__pyext
+[0.252s] running egg_info
+[0.252s] writing usb_v1.egg-info/PKG-INFO
+[0.253s] writing dependency_links to usb_v1.egg-info/dependency_links.txt
+[0.253s] writing top-level names to usb_v1.egg-info/top_level.txt
+[0.255s] reading manifest file 'usb_v1.egg-info/SOURCES.txt'
+[0.255s] writing manifest file 'usb_v1.egg-info/SOURCES.txt'
+[0.278s] [ 97%] Built target ament_cmake_python_build_usb_v1_egg
+[1.395s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:[m[K In constructor ‘[01m[KPrintData::PrintData()[m[K’:
+[1.395s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:69:112:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[1.395s]    69 |         subJoy = create_subscription<usb_v1::msg::Joy>("Data", 10, std::bind(&PrintData::topic_callback, this, [01;31m[K_1[m[K)); // create subscription
+[1.395s]       |                                                                                                                [01;31m[K^~[m[K
+[1.395s]       |                                                                                                                [32m[Kstd::placeholders::_1[m[K
+[1.395s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.395s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.395s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.396s]                  from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:9[m[K:
+[1.396s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[1.396s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[1.396s]       |                                  [01;36m[K^~[m[K
+[1.396s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.396s]                  from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:9[m[K:
+[1.396s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:[m[K In member function ‘[01m[Kvoid PrintData::topic_callback(const Joy&)[m[K’:
+[1.396s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:78:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmove1[m[K’; did you mean ‘[01m[Kmove_1[m[K’?
+[1.396s]    78 |                     msg.[01;31m[Kmove1[m[K,
+[1.397s]       |                         [01;31m[K^~~~~[m[K
+[1.397s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:79:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmove2[m[K’; did you mean ‘[01m[Kmove_2[m[K’?
+[1.397s]    79 |                     msg.[01;31m[Kmove2[m[K,
+[1.397s]       |                         [01;31m[K^~~~~[m[K
+[1.397s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:80:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmove3[m[K’; did you mean ‘[01m[Kmove_3[m[K’?
+[1.397s]    80 |                     msg.[01;31m[Kmove3[m[K,
+[1.397s]       |                         [01;31m[K^~~~~[m[K
+[1.397s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:81:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmove4[m[K’; did you mean ‘[01m[Kmove_4[m[K’?
+[1.397s]    81 |                     msg.[01;31m[Kmove4[m[K,
+[1.397s]       |                         [01;31m[K^~~~~[m[K
+[1.397s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:88:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksticklx[m[K’; did you mean ‘[01m[Kstick_lx[m[K’?
+[1.397s]    88 |                     msg.[01;31m[Ksticklx[m[K,
+[1.397s]       |                         [01;31m[K^~~~~~~[m[K
+[1.397s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:89:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstickly[m[K’; did you mean ‘[01m[Kstick_ly[m[K’?
+[1.397s]    89 |                     msg.[01;31m[Kstickly[m[K,
+[1.397s]       |                         [01;31m[K^~~~~~~[m[K
+[1.397s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:90:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstickrx[m[K’; did you mean ‘[01m[Kstick_rx[m[K’?
+[1.397s]    90 |                     msg.[01;31m[Kstickrx[m[K,
+[1.397s]       |                         [01;31m[K^~~~~~~[m[K
+[1.397s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:91:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst struct usb_v1::msg::Joy_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstickry[m[K’; did you mean ‘[01m[Kstick_ry[m[K’?
+[1.397s]    91 |                     msg.[01;31m[Kstickry[m[K);
+[1.397s]       |                         [01;31m[K^~~~~~~[m[K
+[1.667s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/Print_Data.cpp.o] Error 1
+[1.668s] gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/listener.dir/all] Error 2
+[1.668s] gmake: *** [Makefile:146: all] Error 2
+[1.673s] Invoked command in '/home/knn/USB_test/build/usb_v1' returned '2': AMENT_PREFIX_PATH=/home/knn/USB_test/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/knn/USB_test/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/knn/USB_test/build/usb_v1 -- -j12 -l12

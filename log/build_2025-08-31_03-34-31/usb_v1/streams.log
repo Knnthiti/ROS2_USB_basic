@@ -1,0 +1,40 @@
+[0.010s] Invoking command in '/home/knn/USB_test/build/usb_v1': CMAKE_PREFIX_PATH=/home/knn/USB_test/install/serial:/home/knn/USB_test/install/usb_v1:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble /usr/bin/cmake --build /home/knn/USB_test/build/usb_v1 -- -j12 -l12
+[0.069s] [  2%] [32mBuilding CXX object CMakeFiles/listener.dir/src/Print_Data.cpp.o[0m
+[0.069s] [ 11%] Built target usb_v1__cpp
+[0.069s] [ 14%] Built target usb_v1__rosidl_generator_c
+[0.070s] [ 17%] [32mBuilding CXX object CMakeFiles/talker.dir/src/USB_esp.cpp.o[0m
+[0.073s] [ 17%] Built target ament_cmake_python_copy_usb_v1
+[0.096s] [ 25%] Built target usb_v1__rosidl_typesupport_introspection_cpp
+[0.098s] [ 34%] Built target usb_v1__rosidl_typesupport_cpp
+[0.100s] [ 51%] Built target usb_v1__rosidl_typesupport_c
+[0.100s] [ 51%] Built target usb_v1__rosidl_typesupport_introspection_c
+[0.101s] [ 60%] Built target usb_v1__rosidl_typesupport_fastrtps_cpp
+[0.104s] [ 68%] Built target usb_v1__rosidl_typesupport_fastrtps_c
+[0.125s] [ 68%] Built target usb_v1
+[0.148s] [ 71%] Built target usb_v1__py
+[0.172s] [ 77%] Built target usb_v1__rosidl_generator_py
+[0.200s] [ 82%] Built target usb_v1__rosidl_typesupport_fastrtps_c__pyext
+[0.201s] [ 94%] Built target usb_v1__rosidl_typesupport_introspection_c__pyext
+[0.201s] [ 94%] Built target usb_v1__rosidl_typesupport_c__pyext
+[0.235s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kusb_v1/msg/joy.hpp: No such file or directory
+[0.235s]    11 | #include [01;31m[K<usb_v1/msg/joy.hpp>[m[K
+[0.235s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.235s] compilation terminated.
+[0.238s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/USB_esp.cpp.o] Error 1
+[0.238s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/talker.dir/all] Error 2
+[0.238s] gmake[1]: *** Waiting for unfinished jobs....
+[0.276s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kusb_v1/msg/joy.hpp: No such file or directory
+[0.276s]    11 | #include [01;31m[K<usb_v1/msg/joy.hpp>[m[K
+[0.276s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.277s] compilation terminated.
+[0.279s] running egg_info
+[0.279s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/Print_Data.cpp.o] Error 1
+[0.279s] gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/listener.dir/all] Error 2
+[0.279s] writing usb_v1.egg-info/PKG-INFO
+[0.280s] writing dependency_links to usb_v1.egg-info/dependency_links.txt
+[0.280s] writing top-level names to usb_v1.egg-info/top_level.txt
+[0.281s] reading manifest file 'usb_v1.egg-info/SOURCES.txt'
+[0.281s] writing manifest file 'usb_v1.egg-info/SOURCES.txt'
+[0.302s] [ 94%] Built target ament_cmake_python_build_usb_v1_egg
+[0.303s] gmake: *** [Makefile:146: all] Error 2
+[0.305s] Invoked command in '/home/knn/USB_test/build/usb_v1' returned '2': CMAKE_PREFIX_PATH=/home/knn/USB_test/install/serial:/home/knn/USB_test/install/usb_v1:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble /usr/bin/cmake --build /home/knn/USB_test/build/usb_v1 -- -j12 -l12

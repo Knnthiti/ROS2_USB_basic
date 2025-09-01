@@ -1,0 +1,68 @@
+[0.010s] Invoking command in '/home/knn/USB_test/build/usb_v1': CMAKE_PREFIX_PATH=/home/knn/USB_test/install/serial:/home/knn/USB_test/install/usb_v1:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble /usr/bin/cmake --build /home/knn/USB_test/build/usb_v1 -- -j12 -l12
+[0.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.122s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.139s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.141s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.144s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.174s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.175s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.241s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.270s] -- Found serial: 1.2.0 (/home/knn/USB_test/install/serial/share/serial/cmake)
+[0.271s] -- Found usb_v1: 0.0.0 (/home/knn/USB_test/install/usb_v1/share/usb_v1/cmake)
+[0.286s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.478s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.892s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.911s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.911s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.911s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.937s] -- Configuring done
+[0.958s] -- Generating done
+[0.967s] -- Build files have been written to: /home/knn/USB_test/build/usb_v1
+[0.993s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_generator_c[0m
+[1.003s] [  2%] [32mBuilding CXX object CMakeFiles/talker.dir/src/USB_esp.cpp.o[0m
+[1.003s] [  5%] Built target usb_v1__cpp
+[1.003s] [  8%] [32mBuilding CXX object CMakeFiles/listener.dir/src/Print_Data.cpp.o[0m
+[1.007s] [ 17%] Built target usb_v1__rosidl_generator_c
+[1.010s] [ 17%] Built target ament_cmake_python_copy_usb_v1
+[1.013s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_fastrtps_cpp[0m
+[1.014s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_cpp[0m
+[1.018s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_introspection_cpp[0m
+[1.022s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_fastrtps_c[0m
+[1.023s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_c[0m
+[1.023s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_typesupport_introspection_c[0m
+[1.027s] [ 25%] Built target usb_v1__rosidl_typesupport_cpp
+[1.027s] [ 34%] Built target usb_v1__rosidl_typesupport_fastrtps_cpp
+[1.035s] [ 42%] Built target usb_v1__rosidl_typesupport_introspection_c
+[1.036s] [ 51%] Built target usb_v1__rosidl_typesupport_introspection_cpp
+[1.037s] [ 65%] Built target usb_v1__rosidl_typesupport_fastrtps_c
+[1.037s] [ 68%] Built target usb_v1__rosidl_typesupport_c
+[1.059s] [ 68%] Built target usb_v1
+[1.083s] [ 71%] Built target usb_v1__py
+[1.083s] [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[1.083s]     8 | #include [01;31m[K<serial/serial.h>[m[K
+[1.083s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.083s] compilation terminated.
+[1.084s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/Print_Data.cpp.o] Error 1
+[1.085s] gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/listener.dir/all] Error 2
+[1.085s] gmake[1]: *** Waiting for unfinished jobs....
+[1.094s] [35m[1mConsolidate compiler generated dependencies of target usb_v1__rosidl_generator_py[0m
+[1.107s] [ 77%] Built target usb_v1__rosidl_generator_py
+[1.112s] [01m[K/home/knn/USB_test/src/usb_v1/src/USB_esp.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[1.112s]     8 | #include [01;31m[K<serial/serial.h>[m[K
+[1.112s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.112s] compilation terminated.
+[1.114s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/USB_esp.cpp.o] Error 1
+[1.114s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/talker.dir/all] Error 2
+[1.189s] running egg_info
+[1.189s] writing usb_v1.egg-info/PKG-INFO
+[1.189s] writing dependency_links to usb_v1.egg-info/dependency_links.txt
+[1.189s] writing top-level names to usb_v1.egg-info/top_level.txt
+[1.191s] reading manifest file 'usb_v1.egg-info/SOURCES.txt'
+[1.191s] writing manifest file 'usb_v1.egg-info/SOURCES.txt'
+[1.211s] [ 77%] Built target ament_cmake_python_build_usb_v1_egg
+[1.212s] gmake: *** [Makefile:146: all] Error 2
+[1.213s] Invoked command in '/home/knn/USB_test/build/usb_v1' returned '2': CMAKE_PREFIX_PATH=/home/knn/USB_test/install/serial:/home/knn/USB_test/install/usb_v1:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble /usr/bin/cmake --build /home/knn/USB_test/build/usb_v1 -- -j12 -l12

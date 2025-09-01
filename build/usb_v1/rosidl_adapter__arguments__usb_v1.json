@@ -1,0 +1,6 @@
+{
+  "package_name": "usb_v1",
+  "non_idl_tuples": [
+    "/home/knn/USB_test/src/usb_v1:msg/Joy.msg"
+  ]
+}
