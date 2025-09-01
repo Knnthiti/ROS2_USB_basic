@@ -1,0 +1,306 @@
+[0.000000] (-) TimerEvent: {}
+[0.000504] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000621] (usb_v1) JobQueued: {'identifier': 'usb_v1', 'dependencies': OrderedDict([('serial', '/home/knn/USB_test/install/serial')])}
+[0.000691] (serial) JobStarted: {'identifier': 'serial'}
+[0.006409] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.006967] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.007573] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/knn/USB_test/build/serial', '--', '-j12', '-l12'], 'cwd': '/home/knn/USB_test/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knn'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knn/USB_test/install/usb_v1/lib:/home/knn/USB_test/install/serial/lib:/home/knn/abu2025_ws/install/irob_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/knn'), ('OLDPWD', '/home/knn/USB_test/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '1739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knn/USB_test/install:/home/knn/abu2025_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'knn'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/knn/abu2025_ws/install/abu2025_ros2/share/abu2025_ros2/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/knn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/knn-HP-Laptop-15s-fq5xxx:@/tmp/.ICE-unix/1702,unix/knn-HP-Laptop-15s-fq5xxx:/tmp/.ICE-unix/1702'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5065203a_6650_45b3_842a_448467fa4c5a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZWJ5B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/knn/USB_test/install/usb_v1:/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/home/knn/abu2025_ws/install/abu2025_ros2/share/abu2025_ros2/worlds'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/knn/USB_test/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/knn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages:/home/knn/abu2025_ws/install/irob_msgs/local/lib/python3.10/dist-packages:/home/knn/abu2025_ws/install/abu2025_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/knn/USB_test/install/usb_v1:/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble')]), 'shell': False}
+[0.055289] (serial) StdoutLine: {'line': b'[ 66%] Built target serial\n'}
+[0.075058] (serial) StdoutLine: {'line': b'[100%] Built target serial_example\n'}
+[0.083482] (serial) CommandEnded: {'returncode': 0}
+[0.084575] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.089830] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/knn/USB_test/build/serial'], 'cwd': '/home/knn/USB_test/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knn'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knn/USB_test/install/usb_v1/lib:/home/knn/USB_test/install/serial/lib:/home/knn/abu2025_ws/install/irob_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/knn'), ('OLDPWD', '/home/knn/USB_test/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '1739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knn/USB_test/install:/home/knn/abu2025_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'knn'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/knn/abu2025_ws/install/abu2025_ros2/share/abu2025_ros2/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/knn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/knn-HP-Laptop-15s-fq5xxx:@/tmp/.ICE-unix/1702,unix/knn-HP-Laptop-15s-fq5xxx:/tmp/.ICE-unix/1702'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5065203a_6650_45b3_842a_448467fa4c5a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZWJ5B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/knn/USB_test/install/usb_v1:/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/home/knn/abu2025_ws/install/abu2025_ros2/share/abu2025_ros2/worlds'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/knn/USB_test/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/knn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages:/home/knn/abu2025_ws/install/irob_msgs/local/lib/python3.10/dist-packages:/home/knn/abu2025_ws/install/abu2025_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/knn/USB_test/install/usb_v1:/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble')]), 'shell': False}
+[0.095636] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.095797] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/lib/libserial.a\n'}
+[0.095882] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/include/serial\n'}
+[0.096045] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/include/serial/v8stdint.h\n'}
+[0.096113] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/include/serial/serial.h\n'}
+[0.096176] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/include/serial/impl\n'}
+[0.096239] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/include/serial/impl/win.h\n'}
+[0.096301] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/include/serial/impl/unix.h\n'}
+[0.096364] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/lib/serial/serial_example\n'}
+[0.096433] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/environment/library_path.sh\n'}
+[0.096508] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.096573] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.096635] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.096706] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.096771] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.096836] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/environment/path.sh\n'}
+[0.096901] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/environment/path.dsv\n'}
+[0.096965] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/local_setup.bash\n'}
+[0.097028] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/local_setup.sh\n'}
+[0.097092] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/local_setup.zsh\n'}
+[0.097155] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/local_setup.dsv\n'}
+[0.097218] (serial) StdoutLine: {'line': b'-- Installing: /home/knn/USB_test/install/serial/share/serial/package.dsv\n'}
+[0.097282] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.097345] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.097413] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.097508] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.097598] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.097794] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/serial/share/serial/package.xml\n'}
+[0.098294] (serial) CommandEnded: {'returncode': 0}
+[0.099817] (-) TimerEvent: {}
+[0.110679] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.111347] (usb_v1) JobStarted: {'identifier': 'usb_v1'}
+[0.118423] (usb_v1) JobProgress: {'identifier': 'usb_v1', 'progress': 'cmake'}
+[0.119035] (usb_v1) JobProgress: {'identifier': 'usb_v1', 'progress': 'build'}
+[0.119402] (usb_v1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/knn/USB_test/build/usb_v1', '--', '-j12', '-l12'], 'cwd': '/home/knn/USB_test/build/usb_v1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knn'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knn/USB_test/install/usb_v1/lib:/home/knn/USB_test/install/serial/lib:/home/knn/abu2025_ws/install/irob_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/knn'), ('OLDPWD', '/home/knn/USB_test/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '1739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knn/USB_test/install:/home/knn/abu2025_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'knn'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/knn/abu2025_ws/install/abu2025_ros2/share/abu2025_ros2/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/knn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/knn-HP-Laptop-15s-fq5xxx:@/tmp/.ICE-unix/1702,unix/knn-HP-Laptop-15s-fq5xxx:/tmp/.ICE-unix/1702'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5065203a_6650_45b3_842a_448467fa4c5a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZWJ5B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/knn/USB_test/install/usb_v1:/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/home/knn/abu2025_ws/install/abu2025_ros2/share/abu2025_ros2/worlds'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/knn/USB_test/build/usb_v1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/knn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages:/home/knn/abu2025_ws/install/irob_msgs/local/lib/python3.10/dist-packages:/home/knn/abu2025_ws/install/abu2025_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/knn/USB_test/install/serial:/home/knn/USB_test/install/usb_v1:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble')]), 'shell': False}
+[0.163121] (usb_v1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.163379] (usb_v1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.173263] (usb_v1) StdoutLine: {'line': b'[  8%] Built target usb_v1__rosidl_generator_c\n'}
+[0.174679] (usb_v1) StdoutLine: {'line': b'[ 11%] Built target usb_v1__cpp\n'}
+[0.178105] (usb_v1) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_usb_v1\n'}
+[0.181723] (usb_v1) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/USB_esp.cpp.o\x1b[0m\n'}
+[0.183572] (usb_v1) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/Print_Data.cpp.o\x1b[0m\n'}
+[0.197686] (usb_v1) StdoutLine: {'line': b'[ 25%] Built target usb_v1__rosidl_typesupport_introspection_c\n'}
+[0.199325] (usb_v1) StdoutLine: {'line': b'[ 34%] Built target usb_v1__rosidl_typesupport_fastrtps_c\n'}
+[0.199906] (-) TimerEvent: {}
+[0.201197] (usb_v1) StdoutLine: {'line': b'[ 42%] Built target usb_v1__rosidl_typesupport_c\n'}
+[0.202069] (usb_v1) StdoutLine: {'line': b'[ 51%] Built target usb_v1__rosidl_typesupport_cpp\n'}
+[0.202888] (usb_v1) StdoutLine: {'line': b'[ 60%] Built target usb_v1__rosidl_typesupport_fastrtps_cpp\n'}
+[0.203293] (usb_v1) StdoutLine: {'line': b'[ 68%] Built target usb_v1__rosidl_typesupport_introspection_cpp\n'}
+[0.225349] (usb_v1) StdoutLine: {'line': b'[ 68%] Built target usb_v1\n'}
+[0.250969] (usb_v1) StdoutLine: {'line': b'[ 71%] Built target usb_v1__py\n'}
+[0.276537] (usb_v1) StdoutLine: {'line': b'[ 77%] Built target usb_v1__rosidl_generator_py\n'}
+[0.298675] (usb_v1) StdoutLine: {'line': b'[ 82%] Built target usb_v1__rosidl_typesupport_c__pyext\n'}
+[0.299993] (-) TimerEvent: {}
+[0.303515] (usb_v1) StdoutLine: {'line': b'[ 88%] Built target usb_v1__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.303834] (usb_v1) StdoutLine: {'line': b'[ 94%] Built target usb_v1__rosidl_typesupport_introspection_c__pyext\n'}
+[0.400144] (-) TimerEvent: {}
+[0.467554] (usb_v1) StdoutLine: {'line': b'running egg_info\n'}
+[0.468437] (usb_v1) StdoutLine: {'line': b'writing usb_v1.egg-info/PKG-INFO\n'}
+[0.468839] (usb_v1) StdoutLine: {'line': b'writing dependency_links to usb_v1.egg-info/dependency_links.txt\n'}
+[0.469118] (usb_v1) StdoutLine: {'line': b'writing top-level names to usb_v1.egg-info/top_level.txt\n'}
+[0.471343] (usb_v1) StdoutLine: {'line': b"reading manifest file 'usb_v1.egg-info/SOURCES.txt'\n"}
+[0.472023] (usb_v1) StdoutLine: {'line': b"writing manifest file 'usb_v1.egg-info/SOURCES.txt'\n"}
+[0.499815] (usb_v1) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_usb_v1_egg\n'}
+[0.500207] (-) TimerEvent: {}
+[0.600498] (-) TimerEvent: {}
+[0.700949] (-) TimerEvent: {}
+[0.801382] (-) TimerEvent: {}
+[0.901803] (-) TimerEvent: {}
+[1.002211] (-) TimerEvent: {}
+[1.102658] (-) TimerEvent: {}
+[1.203084] (-) TimerEvent: {}
+[1.303518] (-) TimerEvent: {}
+[1.403918] (-) TimerEvent: {}
+[1.504325] (-) TimerEvent: {}
+[1.604759] (-) TimerEvent: {}
+[1.705189] (-) TimerEvent: {}
+[1.727271] (usb_v1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.727461] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.727533] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.727597] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.727658] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.727717] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.727776] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.727834] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.727892] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.727951] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.728008] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.728065] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:9\x1b[m\x1b[K:\n'}
+[1.728122] (usb_v1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PrintData::topic_callback(const Joy&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.728181] (usb_v1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:75:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 does not support the \xe2\x80\x98\x1b[01m\x1b[K%C\x1b[m\x1b[K\xe2\x80\x99 gnu_printf format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.728248] (usb_v1) StderrLine: {'line': b'   75 |                     \x1b[01;35m\x1b[K"Header: [%C %C] ,"\x1b[m\x1b[K\n'}
+[1.728305] (usb_v1) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.728362] (usb_v1) StderrLine: {'line': b'   76 | \x1b[01;35m\x1b[K                    "Move: [%d %d %d %d | set1:%d set2:%d], "\x1b[m\x1b[K\n'}
+[1.728435] (usb_v1) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.728493] (usb_v1) StderrLine: {'line': b'   77 | \x1b[01;35m\x1b[K                    "Attack: [%d %d %d %d], "\x1b[m\x1b[K\n'}
+[1.728549] (usb_v1) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.728606] (usb_v1) StderrLine: {'line': b'   78 | \x1b[01;35m\x1b[K                    "Sticks: [LX:%d LY:%d RX:%d RY:%d]"\x1b[m\x1b[K,\n'}
+[1.728662] (usb_v1) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.728719] (usb_v1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:75:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.728776] (usb_v1) StderrLine: {'line': b'   75 |                     "Header: [%\x1b[01;36m\x1b[KC\x1b[m\x1b[K %C] ,"\n'}
+[1.728833] (usb_v1) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.728889] (usb_v1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.728946] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.729002] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.729065] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.729121] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.729177] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.729233] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.729289] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.729346] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.729412] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.729471] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.729528] (usb_v1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:9\x1b[m\x1b[K:\n'}
+[1.729589] (usb_v1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:75:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 does not support the \xe2\x80\x98\x1b[01m\x1b[K%C\x1b[m\x1b[K\xe2\x80\x99 gnu_printf format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.729649] (usb_v1) StderrLine: {'line': b'   75 |                     \x1b[01;35m\x1b[K"Header: [%C %C] ,"\x1b[m\x1b[K\n'}
+[1.729706] (usb_v1) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.729762] (usb_v1) StderrLine: {'line': b'   76 | \x1b[01;35m\x1b[K                    "Move: [%d %d %d %d | set1:%d set2:%d], "\x1b[m\x1b[K\n'}
+[1.729823] (usb_v1) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.729883] (usb_v1) StderrLine: {'line': b'   77 | \x1b[01;35m\x1b[K                    "Attack: [%d %d %d %d], "\x1b[m\x1b[K\n'}
+[1.729940] (usb_v1) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.729997] (usb_v1) StderrLine: {'line': b'   78 | \x1b[01;35m\x1b[K                    "Sticks: [LX:%d LY:%d RX:%d RY:%d]"\x1b[m\x1b[K,\n'}
+[1.730053] (usb_v1) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.730109] (usb_v1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:75:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.730166] (usb_v1) StderrLine: {'line': b'   75 |                     "Header: [%C %\x1b[01;36m\x1b[KC\x1b[m\x1b[K] ,"\n'}
+[1.730221] (usb_v1) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.805455] (-) TimerEvent: {}
+[1.905882] (-) TimerEvent: {}
+[2.006332] (-) TimerEvent: {}
+[2.106755] (-) TimerEvent: {}
+[2.207193] (-) TimerEvent: {}
+[2.307616] (-) TimerEvent: {}
+[2.408032] (-) TimerEvent: {}
+[2.508459] (-) TimerEvent: {}
+[2.608867] (-) TimerEvent: {}
+[2.709237] (-) TimerEvent: {}
+[2.809694] (-) TimerEvent: {}
+[2.910102] (-) TimerEvent: {}
+[2.954901] (usb_v1) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.010362] (-) TimerEvent: {}
+[3.095992] (usb_v1) StdoutLine: {'line': b'[ 97%] Built target talker\n'}
+[3.110576] (-) TimerEvent: {}
+[3.210937] (-) TimerEvent: {}
+[3.311337] (-) TimerEvent: {}
+[3.411927] (-) TimerEvent: {}
+[3.512269] (-) TimerEvent: {}
+[3.612527] (-) TimerEvent: {}
+[3.712750] (-) TimerEvent: {}
+[3.813082] (-) TimerEvent: {}
+[3.913453] (-) TimerEvent: {}
+[4.013686] (-) TimerEvent: {}
+[4.114047] (-) TimerEvent: {}
+[4.214401] (-) TimerEvent: {}
+[4.314736] (-) TimerEvent: {}
+[4.415095] (-) TimerEvent: {}
+[4.515435] (-) TimerEvent: {}
+[4.615779] (-) TimerEvent: {}
+[4.716114] (-) TimerEvent: {}
+[4.816468] (-) TimerEvent: {}
+[4.916841] (-) TimerEvent: {}
+[5.017200] (-) TimerEvent: {}
+[5.106562] (usb_v1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[5.117392] (-) TimerEvent: {}
+[5.217754] (-) TimerEvent: {}
+[5.318102] (-) TimerEvent: {}
+[5.332360] (usb_v1) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[5.340389] (usb_v1) CommandEnded: {'returncode': 0}
+[5.340977] (usb_v1) JobProgress: {'identifier': 'usb_v1', 'progress': 'install'}
+[5.341183] (usb_v1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/knn/USB_test/build/usb_v1'], 'cwd': '/home/knn/USB_test/build/usb_v1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knn'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knn/USB_test/install/usb_v1/lib:/home/knn/USB_test/install/serial/lib:/home/knn/abu2025_ws/install/irob_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/knn'), ('OLDPWD', '/home/knn/USB_test/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '1739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knn/USB_test/install:/home/knn/abu2025_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'knn'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/knn/abu2025_ws/install/abu2025_ros2/share/abu2025_ros2/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/knn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/knn-HP-Laptop-15s-fq5xxx:@/tmp/.ICE-unix/1702,unix/knn-HP-Laptop-15s-fq5xxx:/tmp/.ICE-unix/1702'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5065203a_6650_45b3_842a_448467fa4c5a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZWJ5B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/knn/USB_test/install/usb_v1:/home/knn/USB_test/install/serial:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/home/knn/abu2025_ws/install/abu2025_ros2/share/abu2025_ros2/worlds'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/knn/USB_test/build/usb_v1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/knn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages:/home/knn/abu2025_ws/install/irob_msgs/local/lib/python3.10/dist-packages:/home/knn/abu2025_ws/install/abu2025_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/knn/USB_test/install/serial:/home/knn/USB_test/install/usb_v1:/home/knn/abu2025_ws/install/ust_05ln_ros2:/home/knn/abu2025_ws/install/irob_maneuv3r:/home/knn/abu2025_ws/install/irob_launcher:/home/knn/abu2025_ws/install/irob_interface:/home/knn/abu2025_ws/install/irob_controller:/home/knn/abu2025_ws/install/irob_msgs:/home/knn/abu2025_ws/install/abu2025_ros2:/opt/ros/humble')]), 'shell': False}
+[5.350260] (usb_v1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.350593] (usb_v1) StdoutLine: {'line': b'-- Installing: /home/knn/USB_test/install/usb_v1/lib/usb_v1/talker\n'}
+[5.351715] (usb_v1) StdoutLine: {'line': b'-- Set runtime path of "/home/knn/USB_test/install/usb_v1/lib/usb_v1/talker" to ""\n'}
+[5.351821] (usb_v1) StdoutLine: {'line': b'-- Installing: /home/knn/USB_test/install/usb_v1/lib/usb_v1/listener\n'}
+[5.355122] (usb_v1) StdoutLine: {'line': b'-- Set runtime path of "/home/knn/USB_test/install/usb_v1/lib/usb_v1/listener" to ""\n'}
+[5.355244] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/ament_index/resource_index/rosidl_interfaces/usb_v1\n'}
+[5.355282] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1\n'}
+[5.355315] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg\n'}
+[5.355344] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/joy.h\n'}
+[5.355375] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.355408] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail\n'}
+[5.355469] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__functions.h\n'}
+[5.355500] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__type_support.h\n'}
+[5.355534] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__functions.c\n'}
+[5.355568] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__struct.h\n'}
+[5.355634] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/environment/library_path.sh\n'}
+[5.355671] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/environment/library_path.dsv\n'}
+[5.355704] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/lib/libusb_v1__rosidl_generator_c.so\n'}
+[5.355736] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1\n'}
+[5.355803] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg\n'}
+[5.355838] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.355867] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail\n'}
+[5.355895] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__rosidl_typesupport_fastrtps_c.h\n'}
+[5.355980] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/lib/libusb_v1__rosidl_typesupport_fastrtps_c.so\n'}
+[5.356116] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1\n'}
+[5.356148] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg\n'}
+[5.356238] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.356290] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/joy.hpp\n'}
+[5.356343] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail\n'}
+[5.356387] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__traits.hpp\n'}
+[5.356418] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__type_support.hpp\n'}
+[5.356447] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__struct.hpp\n'}
+[5.356479] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__builder.hpp\n'}
+[5.356513] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1\n'}
+[5.356546] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg\n'}
+[5.356579] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.356630] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail\n'}
+[5.356688] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/dds_fastrtps\n'}
+[5.356721] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.356750] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/lib/libusb_v1__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.356839] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1\n'}
+[5.356935] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg\n'}
+[5.357060] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.357124] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail\n'}
+[5.357180] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__type_support.c\n'}
+[5.357241] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__rosidl_typesupport_introspection_c.h\n'}
+[5.357336] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/lib/libusb_v1__rosidl_typesupport_introspection_c.so\n'}
+[5.357662] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/lib/libusb_v1__rosidl_typesupport_c.so\n'}
+[5.357864] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1\n'}
+[5.357941] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg\n'}
+[5.357973] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail\n'}
+[5.358021] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__type_support.cpp\n'}
+[5.358067] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/include/usb_v1/usb_v1/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.358123] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/lib/libusb_v1__rosidl_typesupport_introspection_cpp.so\n'}
+[5.358356] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/lib/libusb_v1__rosidl_typesupport_cpp.so\n'}
+[5.358783] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/environment/pythonpath.sh\n'}
+[5.358825] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/environment/pythonpath.dsv\n'}
+[5.358876] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1-0.0.0-py3.10.egg-info\n'}
+[5.358928] (usb_v1) StdoutLine: {'line': b'-- Installing: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.358978] (usb_v1) StdoutLine: {'line': b'-- Installing: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.359027] (usb_v1) StdoutLine: {'line': b'-- Installing: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.359076] (usb_v1) StdoutLine: {'line': b'-- Installing: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.359125] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1\n'}
+[5.359179] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/usb_v1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.359215] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/msg\n'}
+[5.359277] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/msg/_joy.py\n'}
+[5.359312] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/msg/_joy_s.c\n'}
+[5.359344] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/msg/__init__.py\n'}
+[5.359387] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/_usb_v1_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.359421] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/_usb_v1_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.359489] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/usb_v1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.359523] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/usb_v1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.359556] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/__init__.py\n'}
+[5.359589] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/_usb_v1_s.ep.rosidl_typesupport_c.c\n'}
+[5.359621] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/libusb_v1__rosidl_generator_py.so\n'}
+[5.379886] (usb_v1) StdoutLine: {'line': b"Listing '/home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1'...\n"}
+[5.380031] (usb_v1) StdoutLine: {'line': b"Listing '/home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/msg'...\n"}
+[5.382786] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/usb_v1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.383034] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/usb_v1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.383141] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/local/lib/python3.10/dist-packages/usb_v1/usb_v1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.383229] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/lib/libusb_v1__rosidl_generator_py.so\n'}
+[5.383524] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/msg/Joy.idl\n'}
+[5.383674] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/msg/Joy.msg\n'}
+[5.383756] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/ament_index/resource_index/package_run_dependencies/usb_v1\n'}
+[5.383838] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/ament_index/resource_index/parent_prefix_path/usb_v1\n'}
+[5.383910] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/environment/ament_prefix_path.sh\n'}
+[5.384333] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/environment/ament_prefix_path.dsv\n'}
+[5.384585] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/environment/path.sh\n'}
+[5.384682] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/environment/path.dsv\n'}
+[5.384755] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/local_setup.bash\n'}
+[5.384824] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/local_setup.sh\n'}
+[5.384884] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/local_setup.zsh\n'}
+[5.384944] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/local_setup.dsv\n'}
+[5.385004] (usb_v1) StdoutLine: {'line': b'-- Installing: /home/knn/USB_test/install/usb_v1/share/usb_v1/package.dsv\n'}
+[5.385064] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/ament_index/resource_index/packages/usb_v1\n'}
+[5.385123] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_generator_cExport.cmake\n'}
+[5.385184] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.385243] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.385303] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.385363] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_generator_cppExport.cmake\n'}
+[5.385451] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.385540] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.385765] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.385998] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.386145] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1__rosidl_typesupport_cExport.cmake\n'}
+[5.386219] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.386477] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.386564] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.386801] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1__rosidl_typesupport_cppExport.cmake\n'}
+[5.386872] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.386937] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_generator_pyExport.cmake\n'}
+[5.387001] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/export_usb_v1__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.387065] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/rosidl_cmake-extras.cmake\n'}
+[5.387128] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.387192] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.387254] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.387318] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.387707] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.387780] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.387844] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1Config.cmake\n'}
+[5.387908] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/cmake/usb_v1Config-version.cmake\n'}
+[5.387971] (usb_v1) StdoutLine: {'line': b'-- Up-to-date: /home/knn/USB_test/install/usb_v1/share/usb_v1/package.xml\n'}
+[5.388035] (usb_v1) CommandEnded: {'returncode': 0}
+[5.403129] (usb_v1) JobEnded: {'identifier': 'usb_v1', 'rc': 0}
+[5.403892] (-) EventReactorShutdown: {}

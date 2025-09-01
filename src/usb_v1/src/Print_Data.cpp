@@ -19,7 +19,7 @@ typedef struct __attribute__((packed))
         uint8_t moveBtnByte;
         struct
         {
-            uint8_t move1 : 1; 
+            uint8_t move1 : 1;
             uint8_t move2 : 1;
             uint8_t move3 : 1;
             uint8_t move4 : 1;
@@ -62,7 +62,7 @@ class PrintData : public rclcpp::Node
 public:
     rclcpp::Subscription<usb_v1::msg::Joy>::SharedPtr subJoy; // Publisher_odject
 
-    usb_v1::msg::Joy msg; //Joy_odject
+    usb_v1::msg::Joy msg; // Joy_odject
 
     PrintData() : Node("Print_Data")
     {
@@ -91,14 +91,16 @@ public:
                     msg.stick_lx,
                     msg.stick_ly,
                     msg.stick_rx,
-                    msg.stick_ry); //print Data
+                    msg.stick_ry); // print Data
+
+        // RCLCPP_INFO(this->get_logger(), "OK");
     }
 };
 
 int main(int argc, char *argv[])
 {
-    rclcpp::init(argc, argv); //ROS 2 runtime
-    rclcpp::spin(std::make_shared<PrintData>()); //build Node "USB"
-    rclcpp::shutdown(); //close Node "Ctrl-C"
+    rclcpp::init(argc, argv);                    // ROS 2 runtime
+    rclcpp::spin(std::make_shared<PrintData>()); // build Node "USB"
+    rclcpp::shutdown();                          // close Node "Ctrl-C"
     return 0;
 }

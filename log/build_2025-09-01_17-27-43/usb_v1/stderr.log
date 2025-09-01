@@ -1,0 +1,49 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:9[m[K:
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:[m[K In member function ‘[01m[Kvoid PrintData::topic_callback(const Joy&)[m[K’:
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:75:21:[m[K [01;35m[Kwarning: [m[KISO C++11 does not support the ‘[01m[K%C[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |                     [01;35m[K"Header: [%C %C] ,"[m[K
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+   76 | [01;35m[K                    "Move: [%d %d %d %d | set1:%d set2:%d], "[m[K
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   77 | [01;35m[K                    "Attack: [%d %d %d %d], "[m[K
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   78 | [01;35m[K                    "Sticks: [LX:%d LY:%d RX:%d RY:%d]"[m[K,
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:75:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |                     "Header: [%[01;36m[KC[m[K %C] ,"
+      |                                [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:9[m[K:
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:75:21:[m[K [01;35m[Kwarning: [m[KISO C++11 does not support the ‘[01m[K%C[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   75 |                     [01;35m[K"Header: [%C %C] ,"[m[K
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+   76 | [01;35m[K                    "Move: [%d %d %d %d | set1:%d set2:%d], "[m[K
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   77 | [01;35m[K                    "Attack: [%d %d %d %d], "[m[K
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   78 | [01;35m[K                    "Sticks: [LX:%d LY:%d RX:%d RY:%d]"[m[K,
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/knn/USB_test/src/usb_v1/src/Print_Data.cpp:75:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   75 |                     "Header: [%C %[01;36m[KC[m[K] ,"
+      |                                   [01;36m[K^[m[K

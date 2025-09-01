@@ -9,12 +9,16 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <!-- package other -->
   <depend>rclcpp</depend>
   <depend>serial</depend>
   <depend>geometry_msgs</depend>
 
+  <!-- generate msg -->
   <build_depend>rosidl_default_generators</build_depend>
   <exec_depend>rosidl_default_runtime</exec_depend>
+  
+  <!-- group of interface packages -->
   <member_of_group>rosidl_interface_packages</member_of_group>
 
   <test_depend>ament_lint_auto</test_depend>
