@@ -18,41 +18,41 @@ It provides a simple publisher-subscriber setup to visualize controller input da
 ## Installation
 
 Clone the repository:
-```bash
+```
 git clone https://github.com/Knnthiti/ROS2_USB_basic.git
 cd ROS2_USB_basic
+```
 
 Build the workspace:
-
+```
 colcon build
-
+```
 
 Source the setup file:
-
+```
 source install/setup.bash
-
+```
 Usage
 1. Launch the nodes
+```
 ros2 launch Showdata_USB_V1.py
-
+```
 
 This will:
-
 Start the USB receiver node (reads serial data from ESP32).
-
 Start the data printer node (logs decoded data).
 
 2. Visualize with rqt_graph
+```
 rqt_graph
+```
+<img width="770" height="270" alt="Screenshot from 2025-09-01 18-50-16" src="https://github.com/user-attachments/assets/755a6a12-a27f-4e55-9599-dc7b39297372" />
 
+---
+## Custom Message Definition
 
-Example:
-
-
-Custom Message Definition
-
-File: src/usb_v1/msg/Joy.msg
-
+File: (`src/usb_v1/msg/Joy.msg`)
+```
 uint8[2] header
 
 uint8 move_1
@@ -71,14 +71,15 @@ int8 stick_lx
 int8 stick_ly
 int8 stick_rx
 int8 stick_ry
+```
+## ROS2 USB Serial Communication with ESP32
 
-Code Overview
-ESP32 (Sender)
+This project demonstrates communication between an **ESP32** and **ROS 2** via USB serial.  
+It sends controller data (buttons + joystick values) from ESP32 and decodes it in ROS 2 using custom messages.
 
-File: esp/esp_send.ino
-
-The ESP32 packs controller button and joystick data into a struct and sends it via serial.
-
+## Editing the Data Structure
+The **controller data struct** is defined in the ESP32 code:
+```cpp
 typedef struct __attribute__((packed))
 {
     uint8_t Header[2];
@@ -117,25 +118,28 @@ typedef struct __attribute__((packed))
         } stickByte;
     };
 } ControllerData_t;
+```
+### If you modify this struct (e.g., add/remove fields):
+1.Edit (`esp/esp_send.ino`) to send the new format.
+2.Edit (`src/usb_v1/msg/Joy.msg`) to match the new fields.
+3.Edit (`src/usb_v1/src/USB_esp.cpp`) to correctly parse and publish the data.
+4.Edit (`src/usb_v1/src/Print_Data.cpp`) to print/handle the new data.
+Both ends (ESP32 and ROS2) must remain synchronized.
 
-ROS 2 Nodes
+---
+## ROS 2 Nodes
+(`USB_esp.cpp`) Reads serial data from ESP32 and publishes it as usb_v1/msg/Joy.
+(`Print_Data.cpp`)Subscribes to the topic and prints decoded values using RCLCPP_INFO.
 
-USB_esp.cpp
-Reads serial data from ESP32 and publishes it as usb_v1/msg/Joy.
-
-Print_Data.cpp
-Subscribes to the topic and prints decoded values using RCLCPP_INFO.
-
-Example Output
+```Example Output
 Header: [AA 55],
 Move: [1 0 0 1 | set1:0 set2:1],
 Attack: [1 0 0 0],
 Sticks: [LX:10 LY:-20 RX:5 RY:15]
+```
 
-Requirements
-
+---
+## Requirements
 ROS 2 Humble or later
-
 ESP32 with Arduino framework
-
 serial library for ROS 2 (C++)
